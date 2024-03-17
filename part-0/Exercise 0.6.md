@@ -2,8 +2,9 @@
 sequenceDiagram
     
 
-    Browser->>+Server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa (sending submission)
+    Client->>+Server: POST https://example.com/new_data (submitting form data)
     
-    Server-->>-Browser: recieving JSON file (wihout reloading whole page)
+    Server-->>-Client: receiving JSON response (without reloading the entire page)
+
    
 ```
