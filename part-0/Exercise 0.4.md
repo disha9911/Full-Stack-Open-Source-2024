@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram 
 
     Browser->>+Server: POST https://studies.cs.helsinki.fiexampleapp/new_note
@@ -27,3 +28,4 @@ sequenceDiagram
     
     Server-->>-Browser: HTML     
 
+```
